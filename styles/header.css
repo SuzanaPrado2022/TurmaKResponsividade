@@ -1,4 +1,4 @@
-.cabecalho__menu{
+.cabecalho__menu {
     display: inline-block;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
@@ -7,17 +7,17 @@
     height: 24px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-.container__imagem{
+.container__imagem {
     padding: 1em;
 }
