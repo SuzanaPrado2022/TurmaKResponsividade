@@ -9,7 +9,7 @@
 
 .cabecalho{
     background-color: var(--branco);
-    display: contents;
+    display: flex;
     justify-content: space-between;
 }
 
