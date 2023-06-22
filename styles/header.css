@@ -32,3 +32,6 @@
 .container__botao:checked~.lista__menu {
     display: block;
 }
+.container__botao {
+    display: none;
+}
