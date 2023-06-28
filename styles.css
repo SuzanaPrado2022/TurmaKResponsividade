@@ -3,7 +3,7 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
-    --fonte-principal: “Poppins”;
+    --fonte-principal: Poppins;
 }
 
 body {
