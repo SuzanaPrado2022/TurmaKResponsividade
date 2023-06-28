@@ -33,6 +33,11 @@
 .container__botao:checked~.lista__menu {
     display: block;
 }
+
 .container__botao {
     display: none;
+}
+
+.lista__menu-titulo{
+    font-weight: 700;
 }
