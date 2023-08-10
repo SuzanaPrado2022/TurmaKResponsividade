@@ -62,7 +62,7 @@
     display: none;
 }
 
-.opcoes{
+.opcoes {
     display: none;
 }
 
@@ -86,16 +86,26 @@
         display: none;
     }
 
-    .opcoes{
+    .opcoes {
         display: flex;
     }
 
-    .opcoes__item{
+    .opcoes__item {
         padding: 0 1em;
         text-transform: uppercase;
     }
-    .opcoes__link{
+
+    .opcoes__link {
         text-decoration: none;
         color: var(--preto);
+    }
+
+    .opcoes__botao:checked~.lista__menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao {
+        display: none;
     }
 }
