@@ -66,6 +66,11 @@
     .container__titulo {
         display: block;
         font-family: var(--fonte-secundaria);
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .container__titulo--negrito{
+        font-weight: 700;
     }
     .cabecalho__menu{
         display: none;
