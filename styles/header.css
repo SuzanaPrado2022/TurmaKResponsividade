@@ -65,6 +65,7 @@
 @media screen and (min-width: 1024px){
     .container__titulo {
         display: block;
+        font-family: var(--fonte-secundaria);
     }
     .cabecalho__menu{
         display: none;
