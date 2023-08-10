@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
-    height: 24px;    
+    height: 24px;
 }
 
 .cabecalho {
@@ -39,9 +39,10 @@
     display: none;
 }
 
-.lista__menu-titulo, .lista__menu-item {
+.lista__menu-titulo,
+.lista__menu-item {
     padding: 1em;
-    background-color: var(--branco);    
+    background-color: var(--branco);
 }
 
 .lista__menu-titulo {
@@ -49,13 +50,14 @@
     font-weight: 700;
 }
 
-.lista__menu-link{
+.lista__menu-link {
     background: var(--roxo-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
 }
-.container__titulo{
+
+.container__titulo {
     display: none;
 }
