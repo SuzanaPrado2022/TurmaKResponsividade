@@ -61,3 +61,15 @@
 .container__titulo {
     display: none;
 }
+
+@media screen and (min-width: 1024px){
+    .container__titulo {
+        display: block;
+    }
+    .cabecalho__menu{
+        display: none;
+    }
+    .container__favoritos{
+        display: none;
+    }
+}
