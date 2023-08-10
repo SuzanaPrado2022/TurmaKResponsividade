@@ -56,3 +56,6 @@
     background-clip: text;
     text-transform: uppercase;
 }
+.container__titulo{
+    display: none;
+}
