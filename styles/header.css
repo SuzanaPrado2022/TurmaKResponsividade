@@ -62,6 +62,10 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo {
         display: block;
@@ -80,5 +84,18 @@
 
     .container__favoritos {
         display: none;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__itens{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
     }
 }
